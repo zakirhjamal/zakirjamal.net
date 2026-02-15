@@ -1,25 +1,41 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #fff2e6;
     color: #1d0836;
     align-items: center;
+    font-family: georgia;
+}
+body{
+    width: 90%;
+    min-width: 600px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
 }
 .title {
     text-align: center;
     border: 2px solid #1d0836;
-    padding: 10px;
+    padding: 20px;
 }
-.subtitle{
-    text-align: center;
-}
-
 .container {
     display: flex; /* Aligns children (image and text-content) side by side */
     align-items: center; /* Vertically centers the items */
     gap: 20px; /* Adds space between the image and the text */
 }
 .text-content {
+    text-align: center;
     border: 2px solid #1d0836;
-    padding: 10px;
-    margin: 20px;
-    width: 600 px;
+    padding: 30px;
+    margin: 10px;
+}
+.container .text-content{
+    min-height: 238px;
+}
+.container .text-content p{
+    text-align: justify;
 }
