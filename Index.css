@@ -1,0 +1,25 @@
+*{
+    background-color: #fff2e6;
+    color: #1d0836;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    border: 2px solid #1d0836;
+    padding: 10px;
+}
+.subtitle{
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Aligns children (image and text-content) side by side */
+    align-items: center; /* Vertically centers the items */
+    gap: 20px; /* Adds space between the image and the text */
+}
+.text-content {
+    border: 2px solid #1d0836;
+    padding: 10px;
+    margin: 20px;
+    width: 600 px;
+}
